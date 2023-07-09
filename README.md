@@ -5,7 +5,7 @@ Configuration to distribute for `tmux`.
 ## Quickstart
 
 ```
-git clone git@github.com:dpopchev/linux-tmux.git
+git clone https://github.com/dpopchev/linux-tmux.git
 cd linux-tmux
 make install
 ```

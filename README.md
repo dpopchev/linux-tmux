@@ -1,8 +1,8 @@
 # linux-tmux
 
-Configuration to distribute for `tmux`.
+Configuration for `tmux`.
 
-## Quickstart
+## Install
 
 ```
 git clone https://github.com/dpopchev/linux-tmux.git
@@ -10,9 +10,13 @@ cd linux-tmux
 make install
 ```
 
-Advanced features are provided using [tmp](https://github.com/tmux-plugins/tpm)
+Follow [tmp](https://github.com/tmux-plugins/tpm) instructions for modules.
+
+## Usage
+
+Bash completion [seed](https://github.com/imomaliev/tmux-bash-completion), or
+just
 
 ```
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-# restart all tmux instances
+curl https://raw.githubusercontent.com/imomaliev/tmux-bash-completion/master/completions/tmux >> ~/.bash_completion
 ```
